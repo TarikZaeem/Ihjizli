@@ -1,0 +1,67 @@
+@media screen and (max-width: 1199px) {}
+
+@media screen and (max-width: 991px) {
+    #header {
+        position: fixed;
+        top: 0;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .logo-site img {
+        max-width: 160px;
+    }
+    .main_menu > li > a.btn-site {
+        padding: 0;
+        background: transparent;
+    }
+    .main_menu > li > a.btn-site span {
+        display: none;
+    }
+    .main_menu > li > a.btn-site:before {
+        display: none;
+    }
+    .main_menu > li > a.btn-site:after {
+        content: "";
+        background: url(../images/user.svg);
+        background-size: 100% 100%;
+        width: 20px;
+        height: 20px;
+    }
+    .home_txt {
+        width: 100%;
+    }
+    .sec_head {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .item-reservation {
+        margin-bottom: 20px;
+    }
+    .top-footer {
+        flex-direction: column;
+    }
+    .cont-bt {
+        flex-direction: column;
+    }
+    .copyRight {
+        margin-bottom: 10px;
+    }
+    .cont-current {
+        flex-direction: column;
+    }
+    .cont-current > div {
+        width: 100%;
+    }
+    .plugins-service {
+        margin: 20px 0;
+    }
+    .lst-category li {
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 767px) {}
+
+@media screen and (max-width: 500px) {}
